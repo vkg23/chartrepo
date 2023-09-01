@@ -11,4 +11,15 @@ entries:
     urls:
     - example-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-30T14:50:12.490029+08:00"
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-01T00:10:22.371366624Z"
+    description: A Helm chart for Kubernetes
+    digest: 65bdd7ca1cbf5fe1d0d9b04345bbc7d817884f6eaff37435a41f86612a773e0e
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/vkg23/chartrepo/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-01T00:10:22.371375224Z"
